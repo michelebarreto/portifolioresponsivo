@@ -27,13 +27,13 @@ body{
 }
 
 .capa_titulo{
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: georgia;
 }
 /* para deixar responsivo*/
 @media(max-width:768px){
     .capa_titulo{
-        font-size: 1.5rem;
+        font-size: 1,1rem;
         margin: 30px;
     }
 }
@@ -142,13 +142,13 @@ body{
     }
 }
 .botao_cv{
-    border: red solid 2px;
+    border: rgb(55, 0, 255) solid 2px;
     border-radius: 3rem;
     text-transform: uppercase;
     padding: 1rem 2rem;
     font-size: 1rem;
     font-weight: 400;
-    color: red;
+    color: rgb(113, 11, 246);
     margin: 30px;
 
 }
@@ -173,7 +173,7 @@ body{
     
 .quadrinho{
     display:inline-block;
-    background-color: red;
+    background-color: rgb(59, 155, 233);
     width: 13%;
     color: black;
     padding: 10px 10px 5px 20px;
@@ -200,3 +200,4 @@ footer{
     font-size: 1rem;
     text-align: center;
    }
+}
